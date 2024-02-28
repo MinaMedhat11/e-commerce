@@ -54,7 +54,7 @@ console.log(cartID);
                     token: localStorage.getItem('tkn')
                 },
                 params:{
-                    url:'http://localhost:3000'
+                    url:'https://minamedhat11.github.io/e-commerce'
                 }
             })
             if(data.status=='success'){
